@@ -1,0 +1,5 @@
+for file in *.jpg
+do
+		convert "$file" -trim "$file"
+done
+
